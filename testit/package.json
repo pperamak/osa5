@@ -1,0 +1,14 @@
+{
+  "name": "testit",
+  "version": "1.0.0",
+  "description": "osan 5 testit",
+  "main": "index.js",
+  "scripts": {"test": "playwright test",
+  "test:report": "playwright show-report"},
+  "author": "Panu Perämäki",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  }
+}
